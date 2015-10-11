@@ -1,0 +1,17 @@
+ function send_post() {
+ 	var hr= new XMLHttpRequest();
+ 	var url = "MESSAGES.php"
+ 	var fn = document.getElementById("post").value;
+ 	var vars = "post=" + fn;
+ 	hr.open("POST", url, true);
+ 	hr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+ 	hr.onreadystatechange = function() {
+ 		if (4 && hr.status ==200) {
+ 			var return_data = hr.responseText;
+ 			document.getElementById("status").innetHTML = return_data;
+ 		}
+ 	 }
+ 
+ 	hr.send(vars);
+ 	document.getElementById("status").innerHTML = "processing..";
+}

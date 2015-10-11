@@ -1,0 +1,62 @@
+@media screen and (max-width: 1280px){
+#menu {
+
+	background-image: url(..//img/menu_bg.png);
+	position: absolute;
+	top:  0px;
+	right: 0px;
+	height: 20px;
+	padding-top: 19px;
+	margin-right: 10%;
+}
+}
+
+@media screen and (min-width: 1280px){
+#menu {
+
+	background-image: url(..//img/menu_bg.png);
+	position: absolute;
+	top:  0px;
+	right: 0px;
+	height: 20px;
+	padding-top: 19px;
+	margin-right: 10%;
+}
+}
+
+@media screen and (min-width: 1920px){
+#menu {
+
+	background-image: url(..//img/menu_bg.png);
+	position: absolute;
+	top:  0px;
+	right: 0px;
+	height: 20px;
+	padding-top: 19px;
+	margin-right: 25%;
+}
+}
+
+#menu a{
+
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	background-image: url(..//img/menu_bg.png);
+	background-repeat: no-repeat;
+	padding-top: 19px;
+	padding-bottom: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#menu a:hover{
+	background-image: url(..//img/menu_bg_hover.png);
+}
+
+h2 {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 19px;
+	padding: 8px;
+	color: #0084c6;
+}

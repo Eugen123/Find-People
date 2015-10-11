@@ -1,0 +1,11 @@
+.logo {
+	background-image: url(../img/menu_bg.png);
+	width: 125px;
+	
+}
+
+.logo img {
+	background-image: url(../img/menu_bg.png);
+	padding-top: 5px;
+}
+
